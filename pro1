@@ -1,0 +1,6 @@
+t=int(input())
+n=int(input())
+for i in range(t):
+    l=[int(k) for k in input().split()]
+    l.sort(reverse=True)
+    print(l)
